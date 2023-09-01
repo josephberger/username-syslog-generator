@@ -31,13 +31,13 @@ python fake_syslog_generator.py [options]
 Generate fake syslog messages with a destination IP address:
 
 ```bash
-python fake_syslog_generator.py -d 192.168.1.10 -n 20 --domain wigits.com
+python syslog_generator.py -d 192.168.1.10 -n 20 --domain wigits.com
 ```
 
 Generate fake syslog messages with a slower rate:
 
 ```bash
-python fake_syslog_generator.py -d 192.168.1.10 --speed slow
+python syslog_generator.py -d 192.168.1.10 --speed slow
 ```
 
 ## Palo Alto User-ID Filtering
