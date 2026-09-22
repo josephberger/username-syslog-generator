@@ -14,7 +14,7 @@ pip install faker
 
 3. Run the script with the desired command-line arguments.
 ```bash
-python fake_syslog_generator.py [options]
+python syslog_generator.py [options]
 ```
 
 ## Command-line Options
